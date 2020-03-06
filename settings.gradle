@@ -1,0 +1,12 @@
+rootProject.name = 'azure-active-directory-demos'
+include ':azure-active-directory-b2c-oidc-spring-boot-sample'
+include ':azure-active-directory-spring-boot-backend-sample'
+include ':azure-active-directory-spring-boot-sample'
+include ':azure-active-directory-spring-boot-stateless-sample'
+include ':azure-active-directory-v2-spring-boot-backend-sample'
+
+project(':azure-active-directory-b2c-oidc-spring-boot-sample').projectDir = "$rootDir/azure-active-directory-b2c-oidc-spring-boot-sample" as File
+project(':azure-active-directory-spring-boot-backend-sample').projectDir = "$rootDir/azure-active-directory-spring-boot-backend-sample" as File
+project(':azure-active-directory-spring-boot-sample').projectDir = "$rootDir/azure-active-directory-spring-boot-sample" as File
+project(':azure-active-directory-spring-boot-stateless-sample').projectDir = "$rootDir/azure-active-directory-spring-boot-stateless-sample" as File
+project(':azure-active-directory-v2-spring-boot-backend-sample').projectDir = "$rootDir/azure-active-directory-v2-spring-boot-backend-sample" as File
