@@ -29,4 +29,4 @@ jobs:
         app-name: 'kkazureactivedirectorydemos'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_55ef4a0cab904033bacaa7db49866be2 }}
-        package: '${{ github.workspace }}/target/*.jar'
+        package: '${{ github.workspace }}/azure-active-directory-spring-boot-sample/target/*.jar'
